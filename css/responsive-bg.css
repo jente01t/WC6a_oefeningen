@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 15vw;
+    background-image: url(../images/bg-l.jpg);
+    background-size: cover;
+    color: white;
+}

@@ -4,23 +4,13 @@ body {
 
 h1 {
     padding: 15vw;
-    background-image: url(../images/bg-l.jpg);
+    background-image: url(../images/bg-s.jpg);
     background-size: cover;
     color: white;
 }
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
-    h1 {
-        background-image: url(../images/bg-s.jpg);
-        background-size: cover;
-        color: white;
-    }
-    body {
-        background-color: yellow;
-    }
-}
 
-@media screen and (min-width: 801px) and (max-width: 1200px) {
+@media screen and (min-width: 1201px) {
     h1 {
         background-image: url(../images/bg-m.jpg);
         background-size: cover;
@@ -31,7 +21,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1601px) {
     h1 {
         background-image: url(../images/bg-l.jpg);
         background-size: cover;
